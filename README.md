@@ -15,7 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Link to my project](https://frontend-mentor-qr-code-rust.vercel.app/)
+- Live Site URL: [Link to my project](https://blog-preview-card-main-liard-eta.vercel.app/)
 
 ### Built with
 
