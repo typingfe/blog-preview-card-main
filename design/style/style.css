@@ -1,0 +1,111 @@
+:root {
+	--yellow: hsl(47, 88%, 63%);
+	--white: hsl(0, 0%, 100%);
+	--grey: hsl(0, 0%, 50%);
+	--black: hsl(0, 0%, 7%);
+	--font: 'Figtree', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--yellow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.card {
+	margin: 0 1.5rem;
+}
+
+.card__container {
+	background-color: var(--white);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: 384px;
+	padding: 1rem;
+	width: 100%;
+	border: 1px solid var(--black);
+	border-radius: 20px;
+	box-shadow: 0.9rem 0.9rem var(--black);
+}
+
+.card__info img {
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+}
+
+.card__button {
+	display: inline-block;
+	text-decoration: none;
+	background-color: var(--yellow);
+	font-family: var(--font);
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--black);
+	padding: 0.5rem;
+	margin: 0.8rem 0;
+	border-radius: 4px;
+}
+
+.card__date {
+	font-family: var(--font);
+	font-size: 0.875rem;
+	display: block;
+	margin: 0.5rem 0;
+}
+
+.card__title {
+	font-family: var(--font);
+	font-size: 1.5rem;
+	color: var(--black);
+	cursor: pointer;
+}
+
+.card__text {
+	font-family: var(--font);
+	font-size: 1rem;
+	color: var(--grey);
+	margin: 0.75rem 0;
+}
+
+.card__profile {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.card__profile img {
+	max-width: 32px;
+}
+
+.card__profile span {
+	font-family: var(--font);
+	font-size: 0.875rem;
+}
+
+.attribution {
+	margin: 1.5rem 0;
+}
+.attribution a {
+	font-family: var(--font);
+	text-decoration: none;
+}
+
+.card__button:hover {
+	background-color: var(--black);
+	color: var(--yellow);
+}
+
+.card__title:hover {
+	color: var(--yellow);
+}
